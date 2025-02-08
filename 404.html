@@ -4,7 +4,9 @@
   <head>
     <meta charset="utf-8">
     <title>Redirecting...</title>
-    <script>
+    <script type="text/javascript">
+      // Extract the path from the current URL
+      var path = window.location.pathname;
       window.location.href = 'index.html' + '?redirect=' + encodeURIComponent(path);
     </script>
   </head>
